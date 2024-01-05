@@ -1,0 +1,12 @@
+{
+    "Menu": {
+        "MenuTitle": "Clear World",
+        "LivingPeds": "Living Peds",
+        "DeadPeds": "Dead Peds",
+        "LivingVehicles": "Living Vehicles",
+        "DeadVehicles": "Dead Vehicles",
+        "PersistentEntities": "Persistent Entities",
+        "ReloadWorld": "Reload World",
+        "Confirm": "Confirm"
+    }
+}
