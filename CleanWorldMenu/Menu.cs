@@ -34,6 +34,7 @@ internal static class Menu
         ConfirmClearWorld.Activated += (m, i) =>
         {
             CleanWorld.ClearWorld(cwLivingPeds.Checked, cwDeadPeds.Checked, cwLivingVehicles.Checked, cwDeadVehicles.Checked, cwPersistentEntities.Checked, cwReloadWorld.Checked);
+            ClearWorldMenu.Close();
         };
 
         ClearWorldMenu.AddItems(cwLivingPeds, cwDeadPeds, cwLivingVehicles, cwDeadVehicles, cwPersistentEntities, cwReloadWorld, ConfirmClearWorld);
