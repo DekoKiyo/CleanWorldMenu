@@ -24,3 +24,4 @@ You can translate this plugin in [Crowdin](https://crowdin.com/project/cleanworl
 ## Credits
 [Newtonsoft.Json](https://www.newtonsoft.com/json)<br>
 [RAGENativeUI](https://github.com/alexguirre/RAGENativeUI)<br>
+[ScriptHookV .NET](https://github.com/scripthookvdotnet/scripthookvdotnet)
