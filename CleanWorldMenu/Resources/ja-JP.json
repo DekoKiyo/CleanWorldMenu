@@ -10,6 +10,6 @@
         "Confirm": "実行"
     },
     "Message": {
-        "Loaded": "~b~{0}~s~ was ~g~successfully loaded!~s~"
+        "Loaded": "~b~{0}~s~が~g~正常にロードされました!~s~"
     }
 }
