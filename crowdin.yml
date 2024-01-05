@@ -1,3 +1,6 @@
+project_id: "638326"
+options commit_message: Update Translation from Crowdin Platform
+pull_request_title: "[Crowdin] Update Localization Files"
 files:
   - source: /CleanWorldMenu/Resources/en-US.json
     translation: /CleanWorldMenu/Resources/%locale%.json
