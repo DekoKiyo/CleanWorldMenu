@@ -1,4 +1,5 @@
 ﻿using CleanWorldMenu;
+using CleanWorldMenu.Extensions;
 using Rage;
 using Rage.Attributes;
 
@@ -23,5 +24,6 @@ internal class EntryPoint
         Settings.Initialize();
         Menu.Initialize();
         GameFiber.StartNew(Menu.Process, $"[{PLUGIN_NAME}] Menu Update Process");
+        HudExtensions.DisplayNotification(Localization.GetString("Loaded", PLUGIN_NAME));
     }
 }
