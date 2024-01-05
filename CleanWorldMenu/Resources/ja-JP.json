@@ -10,6 +10,6 @@
         "Confirm": "実行"
     },
     "Message": {
-        "Loaded": "{0} was ~g~successfully loaded!~s~"
+        "Loaded": "~b~{0}~s~ was ~g~successfully loaded!~s~"
     }
 }
