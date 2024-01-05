@@ -8,5 +8,8 @@
         "PersistentEntities": "デスポーンしないエンティティ",
         "ReloadWorld": "ワールドをリロードする",
         "Confirm": "実行"
+    },
+    "Message": {
+        "Loaded": "{0} was ~g~successfully loaded!~s~"
     }
 }
