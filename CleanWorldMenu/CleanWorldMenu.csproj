@@ -18,6 +18,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ILMerge" Version="3.0.41">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="RagePluginHook" Version="1.98.0" />
@@ -25,5 +28,12 @@
     <Reference Include="../SDK/*.dll" />
     <EmbeddedResource Include="Resources/*.json" />
   </ItemGroup>
+
+  <PropertyGroup>
+    <PostBuildEvent>
+      $(ILMergeConsolePath) /internalize /ndebug /out:".\CleanWorldMenu.dll" CleanWorldMenu.dll Newtonsoft.Json.dll
+      $(ILMergeConsolePath) /internalize /ndebug /out:".\CleanWorldMenu.dll" CleanWorldMenu.dll RAGENativeUI.dll
+    </PostBuildEvent>
+  </PropertyGroup>
 
 </Project>
