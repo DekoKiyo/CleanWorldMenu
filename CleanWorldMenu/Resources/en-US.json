@@ -8,8 +8,5 @@
         "PersistentEntities": "Persistent Entities",
         "ReloadWorld": "Reload World",
         "Confirm": "Confirm"
-    },
-    "Message": {
-        "Loaded": "{0} was ~g~successfully loaded!~s~"
     }
 }
