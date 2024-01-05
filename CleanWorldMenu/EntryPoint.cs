@@ -19,6 +19,7 @@ internal class EntryPoint
 
     public static void Main()
     {
+        Localization.Initialize();
         Settings.Initialize();
         Menu.Initialize();
         GameFiber.StartNew(Menu.Process, $"[{PLUGIN_NAME}] Menu Update Process");
