@@ -1,0 +1,3 @@
+files:
+  - source: /CleanWorldMenu/Resources/en-US.json
+    translation: /CleanWorldMenu/Resources/%locale%.json
