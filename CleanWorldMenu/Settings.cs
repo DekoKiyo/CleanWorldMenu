@@ -20,17 +20,5 @@ internal static class Settings
     {
         OpenMenuKey = SettingFile.Read("Keys", "OpenMenuKey", Keys.F7);
         OpenMenuModifierKey = SettingFile.Read("Keys", "OpenMenuModifierKey", Keys.None);
-
-        LogSettings();
-    }
-
-    private static void LogSettings()
-    {
-        Game.Console.Print(string.Empty);
-        Game.Console.Print($"======== {EntryPoint.PLUGIN_NAME} Keys Settings ========");
-        Game.Console.Print($"OpenBackupMenuKey: {OpenMenuKey}");
-        Game.Console.Print($"OpenBackupMenuModifierKey: {OpenMenuModifierKey}");
-        Game.Console.Print($"======== {EntryPoint.PLUGIN_NAME} Keys Settings ========");
-        Game.Console.Print(string.Empty);
     }
 }
