@@ -1,4 +1,5 @@
 using System.Windows.Forms;
+using CleanWorldMenu.Extensions;
 using Rage;
 
 namespace CleanWorldMenu;
@@ -18,7 +19,7 @@ internal static class Settings
 
     internal static void Initialize()
     {
-        OpenMenuKey = SettingFile.Read("Keys", "OpenMenuKey", Keys.F7);
-        OpenMenuModifierKey = SettingFile.Read("Keys", "OpenMenuModifierKey", Keys.None);
+        OpenMenuKey = SettingFile.Read("Keys", "OpenMenuKey", "F7").ConvertToKey();
+        OpenMenuModifierKey = SettingFile.Read("Keys", "OpenMenuModifierKey", "None").ConvertToKey();
     }
 }
