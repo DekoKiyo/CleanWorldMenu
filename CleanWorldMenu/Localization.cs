@@ -31,7 +31,7 @@ internal static class Localization
         {
             foreach (var locale in obj.Value)
             {
-                Game.Console.Print($"[Localization] Loading Translation - Key: {locale.Key} Value: {locale.Value}");
+                // Game.Console.Print($"[Localization] Loading Translation - Key: {locale.Key} Value: {locale.Value}");
                 Translation[locale.Key] = locale.Value;
             }
         }
