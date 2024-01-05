@@ -1,12 +1,12 @@
 {
     "Menu": {
-        "MenuTitle": "Clear World",
-        "LivingPeds": "Living Peds",
-        "DeadPeds": "Dead Peds",
-        "LivingVehicles": "Living Vehicles",
-        "DeadVehicles": "Dead Vehicles",
-        "PersistentEntities": "Persistent Entities",
-        "ReloadWorld": "Reload World",
-        "Confirm": "Confirm"
+        "MenuTitle": "Clean World",
+        "LivingPeds": "生存しているPed",
+        "DeadPeds": "死亡しているPed",
+        "LivingVehicles": "動作する車両",
+        "DeadVehicles": "動作しない車両",
+        "PersistentEntities": "デスポーンしないエンティティ",
+        "ReloadWorld": "ワールドをリロードする",
+        "Confirm": "実行"
     }
 }
