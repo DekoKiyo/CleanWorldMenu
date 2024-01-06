@@ -1,15 +1,15 @@
 {
     "Menu": {
         "MenuTitle": "Effacer le monde",
-        "LivingPeds": "Living Peds",
-        "DeadPeds": "Dead Peds",
-        "LivingVehicles": "Living Vehicles",
-        "DeadVehicles": "Dead Vehicles",
-        "PersistentEntities": "Persistent Entities",
+        "LivingPeds": "Piétons vivants",
+        "DeadPeds": "Piétons morts",
+        "LivingVehicles": "Véhicules vivants",
+        "DeadVehicles": "Véhicules morts",
+        "PersistentEntities": "Entités persistantes",
         "ReloadWorld": "Recharger le monde",
         "Confirm": "Confirmer"
     },
     "Message": {
-        "Loaded": "~b~{0}~s~ was ~g~successfully loaded!~s~"
+        "Loaded": "~b~{0}~s~ a été ~g~chargé avec succès !~s~"
     }
 }
