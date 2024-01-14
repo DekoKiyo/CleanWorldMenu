@@ -1,11 +1,11 @@
 {
     "Menu": {
         "MenuTitle": "Очистить мир",
-        "LivingPeds": "Living Peds",
-        "DeadPeds": "Dead Peds",
-        "LivingVehicles": "Living Vehicles",
-        "DeadVehicles": "Dead Vehicles",
-        "PersistentEntities": "Persistent Entities",
+        "LivingPeds": "Живые люди",
+        "DeadPeds": "Мёртвые люди",
+        "LivingVehicles": "Машины",
+        "DeadVehicles": "Сломанные машины",
+        "PersistentEntities": "Объекты",
         "ReloadWorld": "Обновить мир",
         "Confirm": "Подтвердить"
     },
