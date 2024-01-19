@@ -1,15 +1,15 @@
 {
     "Menu": {
-        "MenuTitle": "Clear World",
-        "LivingPeds": "Living Peds",
-        "DeadPeds": "Dead Peds",
-        "LivingVehicles": "Living Vehicles",
-        "DeadVehicles": "Dead Vehicles",
-        "PersistentEntities": "Persistent Entities",
-        "ReloadWorld": "Reload World",
-        "Confirm": "Confirm"
+        "MenuTitle": "清除的世界",
+        "LivingPeds": "活动的路人",
+        "DeadPeds": "死亡的路人",
+        "LivingVehicles": "活动的车辆",
+        "DeadVehicles": "报废的车辆",
+        "PersistentEntities": "持久的物体",
+        "ReloadWorld": "重新加载世界",
+        "Confirm": "确认"
     },
     "Message": {
-        "Loaded": "~b~{0}~s~ was ~g~successfully loaded!~s~"
+        "Loaded": "~b~{0}~s~ ~g~已成功加载！~s~"
     }
 }
