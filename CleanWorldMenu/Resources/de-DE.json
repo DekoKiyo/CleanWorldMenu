@@ -1,10 +1,10 @@
 {
     "Menu": {
-        "MenuTitle": "Clear World",
-        "LivingPeds": "Living Peds",
-        "DeadPeds": "Dead Peds",
-        "LivingVehicles": "Living Vehicles",
-        "DeadVehicles": "Dead Vehicles",
+        "MenuTitle": "Welt säubern",
+        "LivingPeds": "Lebende NPS",
+        "DeadPeds": "Tote NPS",
+        "LivingVehicles": "Lebende Fahrzeuge",
+        "DeadVehicles": "Maschinen entfernen",
         "PersistentEntities": "Persistent Entities",
         "ReloadWorld": "Reload World",
         "Confirm": "Confirm"

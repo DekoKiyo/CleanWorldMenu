@@ -1,9 +1,9 @@
 {
     "Menu": {
-        "MenuTitle": "Clear World",
-        "LivingPeds": "Living Peds",
-        "DeadPeds": "Dead Peds",
-        "LivingVehicles": "Living Vehicles",
+        "MenuTitle": "Pulisci Mondo",
+        "LivingPeds": "Pedoni Vivi",
+        "DeadPeds": "Pedoni morti",
+        "LivingVehicles": "Vita Veicoli",
         "DeadVehicles": "Dead Vehicles",
         "PersistentEntities": "Persistent Entities",
         "ReloadWorld": "Reload World",
