@@ -1,15 +1,15 @@
 {
     "Menu": {
-        "MenuTitle": "Clear World",
-        "LivingPeds": "Living Peds",
-        "DeadPeds": "Dead Peds",
-        "LivingVehicles": "Living Vehicles",
-        "DeadVehicles": "Dead Vehicles",
-        "PersistentEntities": "Persistent Entities",
-        "ReloadWorld": "Reload World",
-        "Confirm": "Confirm"
+        "MenuTitle": "Wyczyści świat",
+        "LivingPeds": "Żywe małpy",
+        "DeadPeds": "Zdechłe małpy",
+        "LivingVehicles": "Pojazdy od małp",
+        "DeadVehicles": "Zdechłe pojazdy od małp",
+        "PersistentEntities": "Obiekty do wywalenia",
+        "ReloadWorld": "Rozwal świat",
+        "Confirm": "Ok"
     },
     "Message": {
-        "Loaded": "~b~{0}~s~ was ~g~successfully loaded!~s~"
+        "Loaded": "~b~{0}~s~ was ~g~ Załadowano małpy!~s~"
     }
 }
